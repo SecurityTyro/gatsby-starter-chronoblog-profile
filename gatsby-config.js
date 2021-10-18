@@ -1,33 +1,25 @@
 module.exports = {
   siteMetadata: {
-    siteTitle: 'Chronoblog Profile Starter',
-    siteDescription: 'Starter for Gatsby Theme Chronoblog',
+    siteTitle: 'Security Tyro',
+    siteDescription: 'A blog for random security topics',
     siteImage: '/banner.png', // main image of the site for metadata
-    siteUrl: 'https://chronoblog-profile.now.sh/',
+    siteUrl: 'http://securitytyro.com/',
     pathPrefix: '/',
     siteLanguage: 'en',
     ogLanguage: `en_US`,
-    author: 'Site Author', // for example - 'Ivan Ganev'
-    authorDescription: 'short author description', // short text about the author
+    author: 'Bader Al-Athari', // for example - 'Ivan Ganev'
+    authorDescription: 'Enthusiastic learner on security topics', // short text about the author
     avatar: '/avatar.jpg',
     twitterSite: '', // website account on twitter
     twitterCreator: '', // creator account on twitter
     social: [
       {
         icon: `envelope`,
-        url: `mailto:mymail@mail.com`,
-      },
-      {
-        icon: `twitter`,
-        url: `https://twitter.com/ganevru`,
+        url: `mailto:sec.tyro@gmail.com`,
       },
       {
         icon: `github`,
-        url: `https://github.com/Chronoblog/gatsby-theme-chronoblog`,
-      },
-      {
-        icon: `node-js`,
-        url: `https://www.npmjs.com/package/gatsby-theme-chronoblog`,
+        url: `https://github.com/SecurityTyro`,
       },
     ],
   },
@@ -77,15 +69,15 @@ module.exports = {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
         // replace "UA-XXXXXXXXX-X" with your own Tracking ID
-        trackingId: 'UA-XXXXXXXXX-X',
+        trackingId: 'G-820XSM9YS8',
       },
     },
     {
-      resolve: `gatsby-plugin-disqus`,
-      options: {
-        // replace "chronoblog-profile" with your own disqus shortname
-        shortname: `chronoblog-profile`,
-      },
+      // resolve: `gatsby-plugin-disqus`,
+      // options: {
+        // // replace "chronoblog-profile" with your own disqus shortname
+        // shortname: `chronoblog-profile`,
+      // },
     },
   ],
 };
