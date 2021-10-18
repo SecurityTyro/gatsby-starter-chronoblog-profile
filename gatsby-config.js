@@ -18,8 +18,16 @@ module.exports = {
         url: `mailto:sec.tyro@gmail.com`,
       },
       {
+        icon: `twitter`,
+        url: `https://twitter.com`,
+      },
+      {
         icon: `github`,
         url: `https://github.com/SecurityTyro`,
+      },
+      {
+        icon: `node-js`,
+        url: `https://www.npmjs.com/package/gatsby-theme-chronoblog`,
       },
     ],
   },
@@ -73,11 +81,11 @@ module.exports = {
       },
     },
     {
-      // resolve: `gatsby-plugin-disqus`,
-      // options: {
-        // // replace "chronoblog-profile" with your own disqus shortname
-        // shortname: `chronoblog-profile`,
-      // },
+      resolve: `gatsby-plugin-disqus`,
+      options: {
+        // replace "chronoblog-profile" with your own disqus shortname
+        shortname: `chronoblog-profile`,
+      },
     },
   ],
 };
